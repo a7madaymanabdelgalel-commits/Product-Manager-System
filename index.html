@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Manager System</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="app">
+            <h1>Product Manager System</h1>
+            <p class="subtitle">Manage your products</p>
+
+            <div class="form-box">
+
+                <input type="text" id="productName" placeholder="Product name">
+                <input type="number" id="productPrice" placeholder="Product price">
+                <input type="number" id="productQuantity" placeholder="Product quantity">
+
+                <button id="saveBtn">Save Product</button>
+                <p id="message"></p>
+            </div>
+            <div class="list-box">
+                <h2>Product</h2>
+                
+                <div id="productlist"></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
